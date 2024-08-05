@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "History Cleaner",
+  "description": "Delete history and downloads.",
+  "version": "1.0",
+  "permissions": [
+    "history",
+    "browsingData"
+  ],
+  "action": {},
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-64.png",
+    "128": "images/icon-128.png"
+  }
+}
